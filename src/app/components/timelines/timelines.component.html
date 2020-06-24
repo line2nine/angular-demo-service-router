@@ -1,6 +1,9 @@
-<h2>Ứng dụng tính thời gian đã sống</h2>
-
 <div>
-    <input type="text" (change)="onChange($event.target.value)" placeholder="Year of Birth">
+    <h2 style="text-align: center">Ứng dụng tính thời gian đã sống</h2>
+
+    <div class="form-group">
+        <input type="text" class="form-control" (change)="onChange($event.target.value)" placeholder="Year of Birth">
+    </div>
+
+    <p>{{ output }}</p>
 </div>
-<p>{{ output }}</p>
